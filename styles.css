@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css);
+
+body {
+    background-color: #171717;
+    color: #f1f1f1f1;
+    font-size: 16px;
+    font-weight: normal;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    padding-top: 20px;
+    max-width: 750px;
+    margin: auto;
+}
+
+.container h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.avatar {
+    height: auto;
+    width: auto;
+    max-width: 255px;
+    max-height: 255px;
+    border-radius: 28px;
+    margin: 20px;
+    /*box-shadow: 4px 4px 14px rgba(0,0,0,0.25);*/
+}
+
+.info {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+@media (max-width: 700px) {
+    .info {
+        display: block;
+        text-align: center;
+    }
+}
+
+.info-text p{
+    margin-top: 0;
+    font-weight: bold;
+}
+
+.info-text h4 {
+    margin-bottom: 0;
+    font-weight: normal;
+}
+
+.info-text {
+    margin-left: 20px ;
+    margin-right: 20px;
+}
+
+.purposes {
+    margin-bottom: 20px;
+    border-radius: 20px;
+    background: #E5E5E5FF;
+    padding: 10px;
+    color: #171717;
+}
+
+.purposes h2 {
+    text-align: center;
+}
+
+.time {
+    padding: 10px;
+    border-radius: 20px;
+    background: #171717;
+    text-align: center;
+    margin-bottom: 20px;
+    color: #E5E5E5FF;
+}
+
+.time-table {
+    width: 300px;
+    text-align: left;
+    margin: auto auto 20px;
+}
+
+.course {
+    padding: 10px;
+    border-radius: 20px;
+    margin-bottom: 30px;
+    background: #E5E5E5FF;
+    text-align: center;
+    color: #171717;
+}
+
+.course a {
+    color: #000000;
+}
+
+.table {
+    width: 100%;
+    padding: 0 50px 20px;
+    border-spacing: 0;
+
+}
+
+.table th {
+    padding-bottom: 5px;
+    border-bottom: 1px solid #171717;
+}
+
+.table tr {
+    line-height: 2;
+}
+
+.under a {
+    text-decoration: underline;
+    color: #171717;
+}
+
+.social {
+    text-align: center;
+    width: 300px;
+    margin: 0 auto;
+    color: #E5E5E5FF;
+}
+
+.social a {
+    text-align: center;
+    width: 48px;
+    height: 48px;
+    float: left;
+    background: #E5E5E5FF;
+    border: 1px solid #ccc;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.15), inset 0 0 50px rgba(0,0,0,0.1);
+    border-radius: 24px;
+    margin: 0 10px 10px 0;
+    padding: 6px;
+    color: #171717;
+}
+
+.down {
+    height: 100px;
+}
+
+.github a:hover {background: #191919; color: #E5E5E5FF;}
+.instagram a:hover {background: #a115b6; color: #E5E5E5FF;}
+.vk a:hover {background: #5d84ae; color: #E5E5E5FF;}
+.telegram a:hover {background: #249bd7; color: #E5E5E5FF;}
